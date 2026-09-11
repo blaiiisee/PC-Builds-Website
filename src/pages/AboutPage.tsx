@@ -3,24 +3,18 @@ export function AboutPage() {
     <main className="editorial-page section-shell page-enter" id="main-content">
       <div className="editorial-page__heading">
         <p className="eyebrow">About</p>
-        <h1>Good parts. Clear reasons. No guesswork.</h1>
+        <h1>No BS builds.   100% sulit only.</h1>
       </div>
 
       <div className="editorial-page__body">
         <p className="editorial-page__lead">
-          We research complete PC builds for real budgets and real use cases in
-          the Philippines.
+          Building a PC isn't the hard part. It's finding the right pieces.
+          Let me help you with that.
         </p>
         <div className="editorial-page__columns">
           <p>
-            Every recommendation starts with the outcome: the games you play,
-            the resolution you target, the apps you use, and how much you want
-            to spend.
-          </p>
-          <p>
-            No random part generator and no paid placement disguised as advice.
-            Just considered builds and straightforward guidance on what your
-            money gets you.
+            Playing games, editing videos, and even working with local LLMs.
+            I've got you covered.
           </p>
         </div>
       </div>

@@ -31,7 +31,7 @@ export function SiteLayout() {
       <header className={`site-header ${menuOpen ? "menu-open" : ""}`}>
         <div className="header-inner">
           <Link className="wordmark" to="/" aria-label="PC Builds home" onClick={() => setMenuOpen(false)}>
-            pc builds
+            pc builds guide
           </Link>
 
           <button
@@ -64,13 +64,13 @@ export function SiteLayout() {
 
             <a
               className="header-social"
-              href="https://www.tiktok.com/@iblesg"
+              href="https://www.tiktok.com/@iblaise_"
               target="_blank"
               rel="noreferrer"
               onClick={() => setMenuOpen(false)}
             >
               <SocialIcon />
-              <span>@iblesg</span>
+              <span>@iblaise_</span>
             </a>
           </nav>
         </div>
@@ -81,7 +81,7 @@ export function SiteLayout() {
       <footer className="site-footer">
         <div className="footer-inner">
           <Link className="footer-brand" to="/">
-            pc builds
+            pc builds guide
           </Link>
           <nav className="footer-nav" aria-label="Footer navigation">
             {navItems.map((item) => (
@@ -92,12 +92,12 @@ export function SiteLayout() {
           </nav>
           <a
             className="footer-social"
-            href="https://www.tiktok.com/@iblesg"
+            href="https://www.tiktok.com/@iblaise_"
             target="_blank"
             rel="noreferrer"
           >
             <SocialIcon />
-            TikTok&nbsp; @iblesg
+            TikTok&nbsp; @iblaise_
           </a>
           <div className="footer-meta">
             <span>Curated in the Philippines</span>

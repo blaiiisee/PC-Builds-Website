@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { SpecGrid } from "../components/SpecGrid";
+import { ComponentTable } from "../components/ComponentTable";
 import { getBuildBySlug } from "../data/builds";
 
 export function BuildDetailPage() {
@@ -38,24 +38,16 @@ export function BuildDetailPage() {
             {build.price}
           </p>
           <p className="build-detail__description">{build.reasoning}</p>
+          <ComponentTable components={build.components} />
         </div>
       </div>
-
-      <section className="build-detail__specs" aria-labelledby="core-specs-title">
-        <div className="detail-section-heading">
-          <p className="eyebrow">Component overview</p>
-          <h2 id="core-specs-title">Core specification</h2>
-          <p>{build.summary}</p>
-        </div>
-        <SpecGrid components={build.components} />
-      </section>
 
       <aside className="placeholder-notice" aria-label="Placeholder data notice">
         <span>Before you buy</span>
         <p>
-          This is placeholder content for evaluating the recommendation
-          experience. Confirmed parts, current Philippine pricing, and optional
-          affiliate links will be added after final research.
+          Component names, estimated prices, and Shopee destinations are
+          placeholders for evaluating the recommendation experience. Prices may
+          vary, and confirmed product links will be added after final research.
         </p>
       </aside>
     </main>

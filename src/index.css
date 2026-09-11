@@ -182,11 +182,12 @@ p, h1, h2, h3, dl, dd { margin: 0; }
 
 .build-detail { padding-top: clamp(24px,3vw,50px); padding-bottom: clamp(60px,7vw,110px); }
 .build-detail__layout {
-  display: grid; grid-template-columns: minmax(0,1.05fr) minmax(360px,.95fr);
-  align-items: center; gap: clamp(36px,5vw,100px);
+  display: grid; grid-template-columns: minmax(280px,.9fr) minmax(440px,1.1fr);
+  align-items: start; gap: clamp(36px,5vw,100px);
 }
 .build-detail__visual { position: relative; border: 1px solid var(--line); background: #dde0e5; overflow: hidden; }
 .build-detail__visual img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
+.build-detail__copy { min-width: 0; }
 .back-link {
   display: inline-flex; color: var(--muted-blue); font-size: .7rem; font-weight: 800;
   letter-spacing: .065em; text-transform: uppercase;
@@ -206,21 +207,56 @@ p, h1, h2, h3, dl, dd { margin: 0; }
   letter-spacing: .09em; text-transform: uppercase;
 }
 .build-detail__description { max-width: 58ch; margin-top: 28px; color: var(--muted-text); font-size: .96rem; line-height: 1.62; }
-.build-detail__specs {
-  margin-top: clamp(60px,7vw,110px); padding-top: clamp(32px,4vw,58px); border-top: 1px solid #b9bdc4;
+.component-table-wrap { margin-top: clamp(28px,3vw,42px); width: 100%; }
+.component-table {
+  width: 100%; table-layout: fixed; border-collapse: collapse; border: 1px solid var(--line);
+  color: var(--ink); background: var(--surface);
 }
-.detail-section-heading {
-  display: grid; grid-template-columns: minmax(240px,.7fr) minmax(300px,1fr);
-  align-items: end; gap: 18px 60px;
+.component-table__component-column { width: 52%; }
+.component-table__price-column { width: 20%; }
+.component-table__link-column { width: 28%; }
+.component-table th, .component-table td {
+  padding: 15px 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  text-align: left; vertical-align: middle; overflow-wrap: anywhere;
 }
-.detail-section-heading .eyebrow { grid-column: 1/-1; }
-.detail-section-heading h2 {
-  font-size: clamp(2.3rem,3.5vw,4.5rem); font-weight: 900; letter-spacing: -.06em; line-height: .92;
+.component-table tr > :last-child { border-right: 0; }
+.component-table tbody tr:last-child > * { border-bottom: 0; }
+.component-table thead th {
+  color: var(--muted-text); background: #e5e7eb; font-size: .62rem; font-weight: 800;
+  letter-spacing: .075em; text-transform: uppercase;
 }
-.detail-section-heading > p:last-child { max-width: 56ch; color: var(--muted-text); font-size: .9rem; line-height: 1.55; }
-.build-detail__specs .spec-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
-.build-detail__specs .spec-item { min-height: 122px; padding: 18px; }
-.build-detail__specs .spec-item dd { margin-top: 26px; font-size: clamp(.9rem,1.2vw,1.2rem); }
+.component-table tbody th { font-weight: 400; }
+.component-table tbody th span {
+  display: block; color: var(--muted-blue); font-size: .6rem; font-weight: 800;
+  letter-spacing: .075em; text-transform: uppercase;
+}
+.component-table tbody th strong { display: block; margin-top: 5px; font-size: .94rem; line-height: 1.35; }
+.component-table tbody td { color: var(--muted-text); font-size: .84rem; line-height: 1.35; }
+.component-table tbody tr:nth-child(even) { background: #f2f2ef; }
+.component-table tbody tr:hover { background: #e9edf2; }
+.component-table a {
+  color: var(--deep-blue); font-size: .78rem; font-weight: 800; text-decoration: underline;
+  text-decoration-thickness: 1px; text-underline-offset: 3px;
+}
+.component-table a:hover { color: var(--muted-blue); }
+.affiliate-heading { display: inline-flex; align-items: center; gap: 6px; }
+.affiliate-help { position: relative; display: inline-flex; }
+.affiliate-help__trigger {
+  width: 20px; height: 20px; padding: 0; display: inline-grid; place-items: center;
+  border: 1px solid currentColor; border-radius: 50%; color: var(--muted-text); background: transparent;
+  font: inherit; line-height: 1; cursor: help;
+}
+.affiliate-tooltip {
+  position: absolute; right: 0; bottom: calc(100% + 9px); z-index: 4;
+  width: max-content; max-width: min(230px,calc(100vw - 32px)); padding: 9px 11px;
+  border: 1px solid var(--dark-line); color: #fff; background: var(--charcoal);
+  font-size: .72rem; font-weight: 700; letter-spacing: 0; line-height: 1.35; text-transform: none;
+  opacity: 0; visibility: hidden; pointer-events: none;
+  transform: translateY(4px); transition: opacity 140ms ease, transform 140ms ease, visibility 0s linear 140ms;
+}
+.affiliate-help:hover .affiliate-tooltip, .affiliate-help:focus-within .affiliate-tooltip {
+  opacity: 1; visibility: visible; transform: none; transition-delay: 0s;
+}
 .placeholder-notice {
   margin-top: clamp(50px,6vw,90px); padding-block: 23px; display: grid;
   grid-template-columns: minmax(140px,.35fr) 1fr; gap: 30px;
@@ -297,9 +333,7 @@ p, h1, h2, h3, dl, dd { margin: 0; }
   .build-detail__copy { display: flex; flex-direction: column; align-items: flex-start; }
   .back-link { order: -1; }
   .build-target { margin-top: 35px; }
-  .detail-section-heading { grid-template-columns: 1fr; gap: 16px; }
-  .detail-section-heading .eyebrow { grid-column: auto; }
-  .build-detail__specs .spec-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .component-table-wrap { align-self: stretch; }
   .footer-inner { grid-template-columns: auto 1fr; }
   .footer-nav { grid-column: 1/-1; grid-row: 2; justify-content: flex-start; flex-wrap: wrap; }
   .footer-social { justify-self: end; }
@@ -318,7 +352,17 @@ p, h1, h2, h3, dl, dd { margin: 0; }
   .build-detail { padding-top: 16px; }
   .build-detail__visual { margin-inline: calc(var(--gutter) * -1); border-right: 0; border-left: 0; }
   .build-detail h1, .not-found-page h1, .editorial-page h1 { font-size: clamp(2.8rem,14vw,4.2rem); }
-  .build-detail__specs .spec-grid { grid-template-columns: 1fr; }
+  .component-table__component-column { width: 45%; }
+  .component-table__price-column { width: 23%; }
+  .component-table__link-column { width: 32%; }
+  .component-table th, .component-table td { padding: 10px 7px; }
+  .component-table thead th { font-size: .53rem; letter-spacing: .035em; }
+  .component-table tbody th span { font-size: .52rem; letter-spacing: .04em; }
+  .component-table tbody th strong { font-size: .75rem; }
+  .component-table tbody td, .component-table a { font-size: .68rem; }
+  .affiliate-heading { gap: 4px; }
+  .affiliate-help__trigger { width: 18px; height: 18px; }
+  .affiliate-tooltip { right: -7px; }
   .placeholder-notice { grid-template-columns: 1fr; gap: 14px; }
   .editorial-page__columns { grid-template-columns: 1fr; gap: 22px; }
   .footer-inner { grid-template-columns: 1fr; align-items: start; gap: 24px; }

@@ -20,8 +20,27 @@ export type BuildComponent = {
   label: string;
   value: string;
   featured: boolean;
-  affiliateUrl?: string;
+  estimatedPrice: string;
+  affiliateUrl: string;
 };
+
+const SHOPEE_HOME_URL = "https://shopee.ph/";
+
+function placeholderComponent(
+  key: BuildComponentKey,
+  label: string,
+  value: string,
+  featured = false,
+): BuildComponent {
+  return {
+    key,
+    label,
+    value,
+    featured,
+    estimatedPrice: "Price TBD",
+    affiliateUrl: SHOPEE_HOME_URL,
+  };
+}
 
 export type BuildRecommendation = {
   slug: string;
@@ -52,10 +71,14 @@ export const buildRecommendations: BuildRecommendation[] = [
     imageAlt: "Compact black gaming PC build intended for esports and 1080p gaming",
     featured: true,
     components: [
-      { key: "cpu", label: "CPU", value: "Ryzen 5 5600", featured: true },
-      { key: "gpu", label: "GPU", value: "Radeon RX 6600", featured: true },
-      { key: "ram", label: "Memory", value: "16GB DDR4", featured: true },
-      { key: "storage", label: "Storage", value: "1TB NVMe SSD", featured: true },
+      placeholderComponent("cpu", "CPU", "Ryzen 5 5600", true),
+      placeholderComponent("gpu", "GPU", "Radeon RX 6600", true),
+      placeholderComponent("motherboard", "Motherboard", "Motherboard model TBD"),
+      placeholderComponent("ram", "Memory", "16GB DDR4", true),
+      placeholderComponent("storage", "Storage", "1TB NVMe SSD", true),
+      placeholderComponent("psu", "Power Supply", "PSU model TBD"),
+      placeholderComponent("case", "Case", "Case model TBD"),
+      placeholderComponent("cooling", "Cooling", "Cooling solution TBD"),
     ],
   },
   {
@@ -72,10 +95,14 @@ export const buildRecommendations: BuildRecommendation[] = [
     imageAlt: "White gaming PC build designed for high-refresh 1440p gaming",
     featured: true,
     components: [
-      { key: "cpu", label: "CPU", value: "Ryzen 5 7500F", featured: true },
-      { key: "gpu", label: "GPU", value: "Radeon RX 7700 XT", featured: true },
-      { key: "ram", label: "Memory", value: "32GB DDR5", featured: true },
-      { key: "storage", label: "Storage", value: "1TB NVMe SSD", featured: true },
+      placeholderComponent("cpu", "CPU", "Ryzen 5 7500F", true),
+      placeholderComponent("gpu", "GPU", "Radeon RX 7700 XT", true),
+      placeholderComponent("motherboard", "Motherboard", "Motherboard model TBD"),
+      placeholderComponent("ram", "Memory", "32GB DDR5", true),
+      placeholderComponent("storage", "Storage", "1TB NVMe SSD", true),
+      placeholderComponent("psu", "Power Supply", "PSU model TBD"),
+      placeholderComponent("case", "Case", "Case model TBD"),
+      placeholderComponent("cooling", "Cooling", "Cooling solution TBD"),
     ],
   },
   {
@@ -92,10 +119,14 @@ export const buildRecommendations: BuildRecommendation[] = [
     imageAlt: "High-performance black PC build for gaming, editing, and productivity",
     featured: true,
     components: [
-      { key: "cpu", label: "CPU", value: "Ryzen 7 9700X", featured: true },
-      { key: "gpu", label: "GPU", value: "GeForce RTX 5070", featured: true },
-      { key: "ram", label: "Memory", value: "32GB DDR5", featured: true },
-      { key: "storage", label: "Storage", value: "2TB NVMe SSD", featured: true },
+      placeholderComponent("cpu", "CPU", "Ryzen 7 9700X", true),
+      placeholderComponent("gpu", "GPU", "GeForce RTX 5070", true),
+      placeholderComponent("motherboard", "Motherboard", "Motherboard model TBD"),
+      placeholderComponent("ram", "Memory", "32GB DDR5", true),
+      placeholderComponent("storage", "Storage", "2TB NVMe SSD", true),
+      placeholderComponent("psu", "Power Supply", "PSU model TBD"),
+      placeholderComponent("case", "Case", "Case model TBD"),
+      placeholderComponent("cooling", "Cooling", "Cooling solution TBD"),
     ],
   },
 ];
