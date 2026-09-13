@@ -1,0 +1,22 @@
+{
+  "slug": "high-end-creator",
+  "name": "Gaming + Creator",
+  "price": "₱100,000",
+  "categories": ["gaming", "aaa-gaming", "editing", "productivity"],
+  "target": "Gaming / Editing / Productivity",
+  "summary": "A confident all-rounder for demanding games, heavy creative work, and workflows that cannot afford to wait.",
+  "reasoning": "The placeholder high-end build pairs an eight-core processor with an NVIDIA GPU for strong gaming performance and broad creative-app acceleration, supported by generous memory and storage.",
+  "image": "/images/high-end-creator.svg",
+  "imageAlt": "High-performance black PC build for gaming, editing, and productivity",
+  "featured": true,
+  "components": [
+    { "key": "cpu", "label": "CPU", "value": "Ryzen 7 9700X", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "gpu", "label": "GPU", "value": "GeForce RTX 5070", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "motherboard", "label": "Motherboard", "value": "Motherboard model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "ram", "label": "Memory", "value": "32GB DDR5", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "storage", "label": "Storage", "value": "2TB NVMe SSD", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "psu", "label": "Power Supply", "value": "PSU model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "case", "label": "Case", "value": "Case model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "cooling", "label": "Cooling", "value": "Cooling solution TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" }
+  ]
+}

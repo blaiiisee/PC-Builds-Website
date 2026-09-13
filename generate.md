@@ -80,7 +80,7 @@ Before publishing real recommendations, verify complete component compatibility,
 
 ## Build Data Model
 
-Build content lives in `src/data/builds.ts` and is the single source of truth for homepage cards, listing pages, category pages, and detail pages.
+Build content lives in individual JSON files under `public/builds/`, which are the single source of truth for homepage cards, listing pages, category pages, and detail pages. Vite discovers these files automatically at development and build time; use a numeric filename prefix when display order matters.
 
 Each `BuildRecommendation` contains:
 
@@ -111,7 +111,7 @@ Supported component keys are CPU, GPU, motherboard, RAM, storage, PSU, case, and
 - `BuildDetailPage` resolves the route slug and renders the image beside an overview whose complete component table follows the description, plus a placeholder-data notice.
 - `Reveal` provides the limited native Intersection Observer entrance effect.
 
-Keep build data separate from presentation. Add or update a recommendation in the data module instead of duplicating page markup.
+Keep build data separate from presentation. Add or update a recommendation by editing its JSON file under `public/builds/` instead of duplicating page markup.
 
 ## Visual System
 

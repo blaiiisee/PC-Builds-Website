@@ -1,0 +1,22 @@
+{
+  "slug": "starter-esports",
+  "name": "Starter Gaming",
+  "price": "₱35,000",
+  "categories": ["esports", "gaming"],
+  "target": "1080p / Esports",
+  "summary": "A sharp first build for competitive games, everyday play, and the best performance where every peso counts.",
+  "reasoning": "Built around a proven six-core platform and a dedicated 1080p graphics card, this placeholder configuration prioritizes smooth competitive performance and straightforward future upgrades.",
+  "image": "/images/starter-esports.svg",
+  "imageAlt": "Compact black gaming PC build intended for esports and 1080p gaming",
+  "featured": true,
+  "components": [
+    { "key": "cpu", "label": "CPU", "value": "Ryzen 5 5600", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "gpu", "label": "GPU", "value": "Radeon RX 6600", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "motherboard", "label": "Motherboard", "value": "Motherboard model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "ram", "label": "Memory", "value": "16GB DDR4", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "storage", "label": "Storage", "value": "1TB NVMe SSD", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "psu", "label": "Power Supply", "value": "PSU model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "case", "label": "Case", "value": "Case model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "cooling", "label": "Cooling", "value": "Cooling solution TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" }
+  ]
+}

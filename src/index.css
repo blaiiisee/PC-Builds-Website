@@ -219,6 +219,7 @@ p, h1, h2, h3, dl, dd { margin: 0; }
   padding: 15px 16px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
   text-align: left; vertical-align: middle; overflow-wrap: anywhere;
 }
+.component-table tr > :nth-child(2) { text-align: right; }
 .component-table tr > :last-child { border-right: 0; }
 .component-table tbody tr:last-child > * { border-bottom: 0; }
 .component-table thead th {
@@ -232,6 +233,9 @@ p, h1, h2, h3, dl, dd { margin: 0; }
 }
 .component-table tbody th strong { display: block; margin-top: 5px; font-size: .94rem; line-height: 1.35; }
 .component-table tbody td { color: var(--muted-text); font-size: .84rem; line-height: 1.35; }
+.component-table tbody td:nth-child(2) {
+  color: var(--ink); font-size: .96rem; font-weight: 700;
+}
 .component-table tbody tr:nth-child(even) { background: #f2f2ef; }
 .component-table tbody tr:hover { background: #e9edf2; }
 .component-table a {
@@ -367,6 +371,7 @@ p, h1, h2, h3, dl, dd { margin: 0; }
   .component-table tbody th span { font-size: .52rem; letter-spacing: .04em; }
   .component-table tbody th strong { font-size: .75rem; }
   .component-table tbody td, .component-table a { font-size: .68rem; }
+  .component-table tbody td:nth-child(2) { font-size: .8rem; }
   .affiliate-heading { gap: 4px; }
   .affiliate-help__trigger { width: 18px; height: 18px; }
   .affiliate-tooltip { right: -7px; }

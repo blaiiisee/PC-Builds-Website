@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "build": {
+    "slug": "personal-build",
+    "name": "Personal Build",
+    "price": "₱145,211",
+    "categories": [
+      "esports",
+      "gaming",
+      "aaa-gaming",
+      "productivity",
+      "editing"
+    ],
+    "target": "1440P ",
+    "summary": "Mid-range enthusiast PC. Will eat anything you throw at it at 1440P with a little help from NVIDIA's latest features.",
+    "reasoning": "X3D CPU for blazing-fast esports performance. RTX 5000 GPU for heavy graphics and light AI workloads.",
+    "image": "/images/personal-build.png",
+    "imageAlt": "Black mATX PC",
+    "featured": true
+  },
+  "components": [
+    {
+      "id": "7ec77dc3eb494d94b861f953cba1d266",
+      "key": "cpu",
+      "label": "CPU",
+      "value": "AMD Ryzen 7 7800X3D",
+      "featured": false,
+      "estimatedPrice": "20595",
+      "originalUrl": "https://shopee.ph/AMD-Ryzen-7-7800X3D-8-Core-16-Thread-Desktop-Processor-without-Fan-(Tray)-i.124930893.42958915411?extraParams=%7B%22display_model_id%22%3A305748006828%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "100d648fa7524dcfb6f3fd09694d60b5",
+      "key": "gpu",
+      "label": "GPU",
+      "value": "ASUS TUF NVIDIA GeForce RTX 5070",
+      "featured": false,
+      "estimatedPrice": "57158",
+      "originalUrl": "https://shopee.ph/ASUS-TUF-NVIDIA%C2%AE-GeForce-RTX%E2%84%A25070-12GB-GDDR7-Video-Card-i.225359055.29528400473?extraParams=%7B%22display_model_id%22%3A198274412233%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "90f8ff9107d2436c9b1ddf6e4441fab6",
+      "key": "motherboard",
+      "label": "Motherboard",
+      "value": "MSI B650M Gaming WiFi",
+      "featured": false,
+      "estimatedPrice": "8,495",
+      "originalUrl": "https://shopee.ph/MSI-B650M-Gaming-WiFi-DDR5-AMD-Motherboard-i.124930893.26075750311?extraParams=%7B%22display_model_id%22%3A195775090078%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "239d3d34124942b6981a5d5ee5efb975",
+      "key": "ram",
+      "label": "Memory",
+      "value": "Kingston Fury Beast DDR5 2x16GB 5600MT/s",
+      "featured": false,
+      "estimatedPrice": "33450",
+      "originalUrl": "https://shopee.ph/Kingston-Fury-Beast-DDR5-16GB-32GB-16Gbit-DRAM-AMD-EXPO-Kit-of-2-Gaming-Desktop-Memory-Black-i.314659245.20053490848?extraParams=%7B%22display_model_id%22%3A256116576799%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "e0d51d632c6749928922abab340c4536",
+      "key": "storage",
+      "label": "Storage",
+      "value": "Lexar 1TB NQ780",
+      "featured": false,
+      "estimatedPrice": "11795",
+      "originalUrl": "https://shopee.ph/Lexar-1TB-NQ780-M.2-2280-PCIe-Gen-4%C3%974-NVMe-SSD-(LNQ780X001T-RNNNG)-i.379168804.29738263037?extraParams=%7B%22display_model_id%22%3A376395292365%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "c00b6196fff346479a69b85d73bcff40",
+      "key": "psu",
+      "label": "Power Supply",
+      "value": "DarkFlash Perfectmost 750W 80+ Gold",
+      "featured": false,
+      "estimatedPrice": "5749",
+      "originalUrl": "https://shopee.ph/darkFlash-PSU-750Watts-Power-Supply-Unit-PMT750-80-Gold-ATX3.1-PCIe5.1-Full-Modular-itw-i.89762129.26860888740?extraParams=%7B%22display_model_id%22%3A251569990232%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "a437b6576531415293d0b38fccc22188",
+      "key": "case",
+      "label": "Case",
+      "value": "DeepCool CH160 Plus",
+      "featured": false,
+      "estimatedPrice": "3819",
+      "originalUrl": "https://shopee.ph/Deepcool-CH160-Plus-Mini-ITX-Portable-High-Flow-PC-Case-itw-i.89762129.54301107660?extraParams=%7B%22display_model_id%22%3A292140512123%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "28ca400508594d1d88aa4df1cf9e01ba",
+      "key": "cooling",
+      "label": "Cooling",
+      "value": "MSI MAG CoreLiquid 240mm AIO",
+      "featured": false,
+      "estimatedPrice": "4150",
+      "originalUrl": "https://shopee.ph/MSI-MAG-CoreLiquid-A13-240-ARGB-AIO-240mm-Liquid-CPU-Cooler-i.124930893.26678389320?extraParams=%7B%22display_model_id%22%3A300535436542%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    }
+  ],
+  "lastShopeeExport": {
+    "rows": [
+      {
+        "componentId": "7ec77dc3eb494d94b861f953cba1d266",
+        "rowNumber": 2,
+        "originalUrl": "https://shopee.ph/AMD-Ryzen-7-7800X3D-8-Core-16-Thread-Desktop-Processor-without-Fan-(Tray)-i.124930893.42958915411?extraParams=%7B%22display_model_id%22%3A305748006828%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "100d648fa7524dcfb6f3fd09694d60b5",
+        "rowNumber": 3,
+        "originalUrl": "https://shopee.ph/ASUS-TUF-NVIDIA%C2%AE-GeForce-RTX%E2%84%A25070-12GB-GDDR7-Video-Card-i.225359055.29528400473?extraParams=%7B%22display_model_id%22%3A198274412233%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "90f8ff9107d2436c9b1ddf6e4441fab6",
+        "rowNumber": 4,
+        "originalUrl": "https://shopee.ph/MSI-B650M-Gaming-WiFi-DDR5-AMD-Motherboard-i.124930893.26075750311?extraParams=%7B%22display_model_id%22%3A195775090078%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "239d3d34124942b6981a5d5ee5efb975",
+        "rowNumber": 5,
+        "originalUrl": "https://shopee.ph/Kingston-Fury-Beast-DDR5-16GB-32GB-16Gbit-DRAM-AMD-EXPO-Kit-of-2-Gaming-Desktop-Memory-Black-i.314659245.20053490848?extraParams=%7B%22display_model_id%22%3A256116576799%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "e0d51d632c6749928922abab340c4536",
+        "rowNumber": 6,
+        "originalUrl": "https://shopee.ph/Lexar-1TB-NQ780-M.2-2280-PCIe-Gen-4%C3%974-NVMe-SSD-(LNQ780X001T-RNNNG)-i.379168804.29738263037?extraParams=%7B%22display_model_id%22%3A376395292365%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "c00b6196fff346479a69b85d73bcff40",
+        "rowNumber": 7,
+        "originalUrl": "https://shopee.ph/darkFlash-PSU-750Watts-Power-Supply-Unit-PMT750-80-Gold-ATX3.1-PCIe5.1-Full-Modular-itw-i.89762129.26860888740?extraParams=%7B%22display_model_id%22%3A251569990232%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "a437b6576531415293d0b38fccc22188",
+        "rowNumber": 8,
+        "originalUrl": "https://shopee.ph/Deepcool-CH160-Plus-Mini-ITX-Portable-High-Flow-PC-Case-itw-i.89762129.54301107660?extraParams=%7B%22display_model_id%22%3A292140512123%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "28ca400508594d1d88aa4df1cf9e01ba",
+        "rowNumber": 9,
+        "originalUrl": "https://shopee.ph/MSI-MAG-CoreLiquid-A13-240-ARGB-AIO-240mm-Liquid-CPU-Cooler-i.124930893.26678389320?extraParams=%7B%22display_model_id%22%3A300535436542%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}

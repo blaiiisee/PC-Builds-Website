@@ -22,7 +22,7 @@ export function ComponentTable({ components }: ComponentTableProps) {
         <thead>
           <tr>
             <th scope="col">Component</th>
-            <th scope="col">Estimated Price</th>
+            <th scope="col">Estimated Price (₱)</th>
             <th scope="col">
               <span className="affiliate-heading">
                 Shopee Link

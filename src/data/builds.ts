@@ -1,3 +1,5 @@
+import buildFiles from "virtual:build-recommendations";
+
 export type BuildCategory =
   | "esports"
   | "gaming"
@@ -5,15 +7,7 @@ export type BuildCategory =
   | "productivity"
   | "editing";
 
-export type BuildComponentKey =
-  | "cpu"
-  | "gpu"
-  | "motherboard"
-  | "ram"
-  | "storage"
-  | "psu"
-  | "case"
-  | "cooling";
+export type BuildComponentKey = string;
 
 export type BuildComponent = {
   key: BuildComponentKey;
@@ -23,24 +17,6 @@ export type BuildComponent = {
   estimatedPrice: string;
   affiliateUrl: string;
 };
-
-const SHOPEE_HOME_URL = "https://shopee.ph/";
-
-function placeholderComponent(
-  key: BuildComponentKey,
-  label: string,
-  value: string,
-  featured = false,
-): BuildComponent {
-  return {
-    key,
-    label,
-    value,
-    featured,
-    estimatedPrice: "Price TBD",
-    affiliateUrl: SHOPEE_HOME_URL,
-  };
-}
 
 export type BuildRecommendation = {
   slug: string;
@@ -56,80 +32,152 @@ export type BuildRecommendation = {
   components: BuildComponent[];
 };
 
-export const buildRecommendations: BuildRecommendation[] = [
-  {
-    slug: "starter-esports",
-    name: "Starter Gaming",
-    price: "₱35,000",
-    categories: ["esports", "gaming"],
-    target: "1080p / Esports",
-    summary:
-      "A sharp first build for competitive games, everyday play, and the best performance where every peso counts.",
-    reasoning:
-      "Built around a proven six-core platform and a dedicated 1080p graphics card, this placeholder configuration prioritizes smooth competitive performance and straightforward future upgrades.",
-    image: "/images/starter-esports.svg",
-    imageAlt: "Compact black gaming PC build intended for esports and 1080p gaming",
-    featured: true,
-    components: [
-      placeholderComponent("cpu", "CPU", "Ryzen 5 5600", true),
-      placeholderComponent("gpu", "GPU", "Radeon RX 6600", true),
-      placeholderComponent("motherboard", "Motherboard", "Motherboard model TBD"),
-      placeholderComponent("ram", "Memory", "16GB DDR4", true),
-      placeholderComponent("storage", "Storage", "1TB NVMe SSD", true),
-      placeholderComponent("psu", "Power Supply", "PSU model TBD"),
-      placeholderComponent("case", "Case", "Case model TBD"),
-      placeholderComponent("cooling", "Cooling", "Cooling solution TBD"),
-    ],
-  },
-  {
-    slug: "1440p-gaming",
-    name: "1440p Gaming",
-    price: "₱60,000",
-    categories: ["gaming", "aaa-gaming"],
-    target: "1440p / AAA Gaming",
-    summary:
-      "A GPU-first sweet spot for modern games at high settings without spending on performance you will not see.",
-    reasoning:
-      "This placeholder recommendation balances a modern AM5 processor with a capable 1440p graphics card, fast DDR5 memory, and a practical storage baseline for a growing game library.",
-    image: "/images/1440p-gaming.svg",
-    imageAlt: "White gaming PC build designed for high-refresh 1440p gaming",
-    featured: true,
-    components: [
-      placeholderComponent("cpu", "CPU", "Ryzen 5 7500F", true),
-      placeholderComponent("gpu", "GPU", "Radeon RX 7700 XT", true),
-      placeholderComponent("motherboard", "Motherboard", "Motherboard model TBD"),
-      placeholderComponent("ram", "Memory", "32GB DDR5", true),
-      placeholderComponent("storage", "Storage", "1TB NVMe SSD", true),
-      placeholderComponent("psu", "Power Supply", "PSU model TBD"),
-      placeholderComponent("case", "Case", "Case model TBD"),
-      placeholderComponent("cooling", "Cooling", "Cooling solution TBD"),
-    ],
-  },
-  {
-    slug: "high-end-creator",
-    name: "Gaming + Creator",
-    price: "₱100,000",
-    categories: ["gaming", "aaa-gaming", "editing", "productivity"],
-    target: "Gaming / Editing / Productivity",
-    summary:
-      "A confident all-rounder for demanding games, heavy creative work, and workflows that cannot afford to wait.",
-    reasoning:
-      "The placeholder high-end build pairs an eight-core processor with an NVIDIA GPU for strong gaming performance and broad creative-app acceleration, supported by generous memory and storage.",
-    image: "/images/high-end-creator.svg",
-    imageAlt: "High-performance black PC build for gaming, editing, and productivity",
-    featured: true,
-    components: [
-      placeholderComponent("cpu", "CPU", "Ryzen 7 9700X", true),
-      placeholderComponent("gpu", "GPU", "GeForce RTX 5070", true),
-      placeholderComponent("motherboard", "Motherboard", "Motherboard model TBD"),
-      placeholderComponent("ram", "Memory", "32GB DDR5", true),
-      placeholderComponent("storage", "Storage", "2TB NVMe SSD", true),
-      placeholderComponent("psu", "Power Supply", "PSU model TBD"),
-      placeholderComponent("case", "Case", "Case model TBD"),
-      placeholderComponent("cooling", "Cooling", "Cooling solution TBD"),
-    ],
-  },
-];
+const buildCategories = new Set<BuildCategory>([
+  "esports",
+  "gaming",
+  "aaa-gaming",
+  "productivity",
+  "editing",
+]);
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function requiredString(value: unknown, field: string, fileName: string): string {
+  if (typeof value !== "string" || value.trim() === "") {
+    throw new Error(`${fileName}: "${field}" must be a non-empty string.`);
+  }
+
+  return value;
+}
+
+function requiredBoolean(value: unknown, field: string, fileName: string): boolean {
+  if (typeof value !== "boolean") {
+    throw new Error(`${fileName}: "${field}" must be a boolean.`);
+  }
+
+  return value;
+}
+
+function componentUrl(value: Record<string, unknown>, field: string, fileName: string) {
+  const affiliateUrl =
+    typeof value.affiliateUrl === "string" ? value.affiliateUrl.trim() : "";
+  const originalUrl =
+    typeof value.originalUrl === "string" ? value.originalUrl.trim() : "";
+
+  if (!affiliateUrl && !originalUrl) {
+    throw new Error(
+      `${fileName}: "${field}.affiliateUrl" or "${field}.originalUrl" must be a non-empty string.`,
+    );
+  }
+
+  return affiliateUrl || originalUrl;
+}
+
+function parseComponent(
+  value: unknown,
+  index: number,
+  fileName: string,
+): BuildComponent {
+  const field = `components[${index}]`;
+
+  if (!isRecord(value)) {
+    throw new Error(`${fileName}: "${field}" must be an object.`);
+  }
+
+  const key = requiredString(value.key, `${field}.key`, fileName);
+
+  return {
+    key,
+    label: requiredString(value.label, `${field}.label`, fileName),
+    value: requiredString(value.value, `${field}.value`, fileName),
+    featured: requiredBoolean(value.featured, `${field}.featured`, fileName),
+    estimatedPrice: requiredString(
+      value.estimatedPrice,
+      `${field}.estimatedPrice`,
+      fileName,
+    ),
+    affiliateUrl: componentUrl(value, field, fileName),
+  };
+}
+
+function parseBuild(value: unknown, fileName: string): BuildRecommendation {
+  if (!isRecord(value)) {
+    throw new Error(`${fileName}: the build definition must be an object.`);
+  }
+
+  // Build-planner exports keep the display fields in `build` and the parts list
+  // alongside it. Normalize that shape before validating the public build data.
+  const buildValue: Record<string, unknown> = isRecord(value.build)
+    ? { ...value.build, components: value.components }
+    : value;
+
+  if (!Array.isArray(buildValue.categories) || buildValue.categories.length === 0) {
+    throw new Error(`${fileName}: "categories" must be a non-empty array.`);
+  }
+
+  const categories = buildValue.categories.map((category, index) => {
+    const parsedCategory = requiredString(
+      category,
+      `categories[${index}]`,
+      fileName,
+    );
+
+    if (!buildCategories.has(parsedCategory as BuildCategory)) {
+      throw new Error(
+        `${fileName}: "categories[${index}]" has an unsupported value.`,
+      );
+    }
+
+    return parsedCategory as BuildCategory;
+  });
+
+  if (!Array.isArray(buildValue.components) || buildValue.components.length === 0) {
+    throw new Error(`${fileName}: "components" must be a non-empty array.`);
+  }
+
+  const components = buildValue.components.map((component, index) =>
+    parseComponent(component, index, fileName),
+  );
+
+  const duplicateComponentKey = components.find(
+    (component, index) =>
+      components.findIndex((candidate) => candidate.key === component.key) !== index,
+  );
+  if (duplicateComponentKey) {
+    throw new Error(
+      `${fileName}: component key "${duplicateComponentKey.key}" is duplicated.`,
+    );
+  }
+
+  return {
+    slug: requiredString(buildValue.slug, "slug", fileName),
+    name: requiredString(buildValue.name, "name", fileName),
+    price: requiredString(buildValue.price, "price", fileName),
+    categories,
+    target: requiredString(buildValue.target, "target", fileName),
+    summary: requiredString(buildValue.summary, "summary", fileName),
+    reasoning: requiredString(buildValue.reasoning, "reasoning", fileName),
+    image: requiredString(buildValue.image, "image", fileName),
+    imageAlt: requiredString(buildValue.imageAlt, "imageAlt", fileName),
+    featured: requiredBoolean(buildValue.featured, "featured", fileName),
+    components,
+  };
+}
+
+export const buildRecommendations: BuildRecommendation[] = buildFiles.map(
+  ({ fileName, data }) => parseBuild(data, fileName),
+);
+
+const duplicateSlug = buildRecommendations.find(
+  (build, index) =>
+    buildRecommendations.findIndex((candidate) => candidate.slug === build.slug) !==
+    index,
+);
+if (duplicateSlug) {
+  throw new Error(`Build slug "${duplicateSlug.slug}" is duplicated.`);
+}
 
 export function getBuildBySlug(slug: string | undefined) {
   return buildRecommendations.find((build) => build.slug === slug);

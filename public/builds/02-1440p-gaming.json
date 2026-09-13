@@ -1,0 +1,22 @@
+{
+  "slug": "1440p-gaming",
+  "name": "1440p Gaming",
+  "price": "₱60,000",
+  "categories": ["gaming", "aaa-gaming"],
+  "target": "1440p / AAA Gaming",
+  "summary": "A GPU-first sweet spot for modern games at high settings without spending on performance you will not see.",
+  "reasoning": "This placeholder recommendation balances a modern AM5 processor with a capable 1440p graphics card, fast DDR5 memory, and a practical storage baseline for a growing game library.",
+  "image": "/images/1440p-gaming.svg",
+  "imageAlt": "White gaming PC build designed for high-refresh 1440p gaming",
+  "featured": true,
+  "components": [
+    { "key": "cpu", "label": "CPU", "value": "Ryzen 5 7500F", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "gpu", "label": "GPU", "value": "Radeon RX 7700 XT", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "motherboard", "label": "Motherboard", "value": "Motherboard model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "ram", "label": "Memory", "value": "32GB DDR5", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "storage", "label": "Storage", "value": "1TB NVMe SSD", "featured": true, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "psu", "label": "Power Supply", "value": "PSU model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "case", "label": "Case", "value": "Case model TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" },
+    { "key": "cooling", "label": "Cooling", "value": "Cooling solution TBD", "featured": false, "estimatedPrice": "Price TBD", "affiliateUrl": "https://shopee.ph/" }
+  ]
+}
