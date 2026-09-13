@@ -22,11 +22,14 @@ export function BuildDetailPage() {
   return (
     <main className="build-detail section-shell page-enter" id="main-content">
       <div className="build-detail__layout">
-        <div className="build-detail__visual">
-          <img src={build.image} alt={build.imageAlt} />
-          {build.image.split("?")[0].endsWith("/placeholder.svg") && (
-            <span className="asset-label">Placeholder image</span>
-          )}
+        <div className="build-detail__media">
+          <div className="build-detail__visual">
+            <img src={build.image} alt={build.imageAlt} />
+            {build.image.split("?")[0].endsWith("/placeholder.svg") && (
+              <span className="asset-label">Placeholder image</span>
+            )}
+          </div>
+          <p className="build-detail__image-note">Image generated with AI.</p>
         </div>
 
         <div className="build-detail__copy">
@@ -47,9 +50,8 @@ export function BuildDetailPage() {
       <aside className="placeholder-notice" aria-label="Placeholder data notice">
         <span>Before you buy</span>
         <p>
-          Component names, estimated prices, and Shopee destinations are
-          placeholders for evaluating the recommendation experience. Prices may
-          vary, and confirmed product links will be added after final research.
+          Prices may vary among stores. Displayed image may not accurately reflect
+          the components listed. I recommend finding the best deals yourself.
         </p>
       </aside>
     </main>
