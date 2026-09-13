@@ -6,7 +6,7 @@
   "target": "1440p / AAA Gaming",
   "summary": "A GPU-first sweet spot for modern games at high settings without spending on performance you will not see.",
   "reasoning": "This placeholder recommendation balances a modern AM5 processor with a capable 1440p graphics card, fast DDR5 memory, and a practical storage baseline for a growing game library.",
-  "image": "/images/1440p-gaming.svg",
+  "image": "/images/placeholder.svg",
   "imageAlt": "White gaming PC build designed for high-refresh 1440p gaming",
   "featured": true,
   "components": [

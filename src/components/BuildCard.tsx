@@ -11,7 +11,9 @@ export function BuildCard({ build }: BuildCardProps) {
     <article className="build-card">
       <div className="build-card__image-wrap">
         <img className="build-card__image" src={build.image} alt={build.imageAlt} />
-        <span className="asset-label">Placeholder image</span>
+        {build.image.split("?")[0].endsWith("/placeholder.svg") && (
+          <span className="asset-label">Placeholder image</span>
+        )}
       </div>
 
       <div className="build-card__body">

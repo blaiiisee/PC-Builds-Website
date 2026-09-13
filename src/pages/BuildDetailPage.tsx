@@ -24,7 +24,9 @@ export function BuildDetailPage() {
       <div className="build-detail__layout">
         <div className="build-detail__visual">
           <img src={build.image} alt={build.imageAlt} />
-          <span className="asset-label">Placeholder image</span>
+          {build.image.split("?")[0].endsWith("/placeholder.svg") && (
+            <span className="asset-label">Placeholder image</span>
+          )}
         </div>
 
         <div className="build-detail__copy">

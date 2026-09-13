@@ -24,7 +24,7 @@
       "key": "cpu",
       "label": "CPU",
       "value": "AMD Ryzen 7 7800X3D",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "20595",
       "originalUrl": "https://shopee.ph/AMD-Ryzen-7-7800X3D-8-Core-16-Thread-Desktop-Processor-without-Fan-(Tray)-i.124930893.42958915411?extraParams=%7B%22display_model_id%22%3A305748006828%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
@@ -41,7 +41,7 @@
       "key": "gpu",
       "label": "GPU",
       "value": "ASUS TUF NVIDIA GeForce RTX 5070",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "57158",
       "originalUrl": "https://shopee.ph/ASUS-TUF-NVIDIA%C2%AE-GeForce-RTX%E2%84%A25070-12GB-GDDR7-Video-Card-i.225359055.29528400473?extraParams=%7B%22display_model_id%22%3A198274412233%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
@@ -75,7 +75,7 @@
       "key": "ram",
       "label": "Memory",
       "value": "Kingston Fury Beast DDR5 2x16GB 5600MT/s",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "33450",
       "originalUrl": "https://shopee.ph/Kingston-Fury-Beast-DDR5-16GB-32GB-16Gbit-DRAM-AMD-EXPO-Kit-of-2-Gaming-Desktop-Memory-Black-i.314659245.20053490848?extraParams=%7B%22display_model_id%22%3A256116576799%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
@@ -126,7 +126,7 @@
       "key": "case",
       "label": "Case",
       "value": "DeepCool CH160 Plus",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "3819",
       "originalUrl": "https://shopee.ph/Deepcool-CH160-Plus-Mini-ITX-Portable-High-Flow-PC-Case-itw-i.89762129.54301107660?extraParams=%7B%22display_model_id%22%3A292140512123%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
