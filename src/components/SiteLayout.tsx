@@ -30,8 +30,8 @@ export function SiteLayout() {
 
       <header className={`site-header ${menuOpen ? "menu-open" : ""}`}>
         <div className="header-inner">
-          <Link className="wordmark" to="/" aria-label="PC Builds home" onClick={() => setMenuOpen(false)}>
-            pc builds guide
+          <Link className="wordmark" to="/" aria-label="Builds by Blaise home" onClick={() => setMenuOpen(false)}>
+            builds by blaise
           </Link>
 
           <button
@@ -81,7 +81,7 @@ export function SiteLayout() {
       <footer className="site-footer">
         <div className="footer-inner">
           <Link className="footer-brand" to="/">
-            pc builds guide
+            builds by blaise
           </Link>
           <nav className="footer-nav" aria-label="Footer navigation">
             {navItems.map((item) => (
