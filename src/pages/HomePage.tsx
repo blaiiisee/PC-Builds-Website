@@ -14,8 +14,8 @@ export function HomePage() {
     <main className="catalog-page section-shell" id="main-content">
       <header className="page-intro page-enter">
         <div>
-          <p className="eyebrow">Curated for the Philippines</p>
-          <h1>Recommended PC Builds</h1>
+          <p className="eyebrow">Built for the Philippine Market</p>
+          <h1>Featured PC Builds</h1>
         </div>
         <form
           className="build-search"

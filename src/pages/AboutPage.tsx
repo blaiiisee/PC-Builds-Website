@@ -12,7 +12,7 @@ export function AboutPage() {
         </p>
         <div className="editorial-page__columns">
           <p>
-            Gaming? Editing? Whatever you need, may build tayo diyan.
+            For further requests, 📩 DM me on TikTok @iblaise_
           </p>
         </div>
       </div>

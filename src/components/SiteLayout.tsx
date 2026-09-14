@@ -100,7 +100,7 @@ export function SiteLayout() {
             TikTok&nbsp; @iblaise_
           </a>
           <div className="footer-meta">
-            <span>Curated in the Philippines</span>
+            <span>Built for the Philippine Market</span>
             <span>© {new Date().getFullYear()}</span>
           </div>
         </div>
