@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "build": {
+    "slug": "pure-esports-build",
+    "name": "Pure ESports Build",
+    "price": "₱45,000",
+    "categories": [
+      "gaming"
+    ],
+    "target": "1080p / ESports",
+    "summary": "A PC built to make sure you get the rank-up on the right budget. Disclaimer: better to find a used GPU deal instead of buying new to save money; I recommend Kal Rigs, PeanutPC, GPUB, and Purrfect Builds on Facebook.",
+    "reasoning": "Built on an AM4 sweet spot with focus on CPU power. Buy a used GPU to achieve approximate budget.",
+    "image": "/images/placeholder.svg",
+    "imageAlt": "Pure Esports Build",
+    "featured": false
+  },
+  "components": [
+    {
+      "id": "97f0d898040141248f321113ed3f0ae9",
+      "key": "cpu",
+      "label": "CPU",
+      "value": "AMD Ryzen 55500 + Cooler",
+      "featured": true,
+      "estimatedPrice": "5830",
+      "originalUrl": "https://shopee.ph/AMD-Ryzen-5-5500-6-Core-12-Thread-Unlocked-Desktop-Processor-with-Fan-(Tray)-i.124930893.41814675624?extraParams=%7B%22display_model_id%22%3A376243606111%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "4354ad0edadc45c6aebb6d1b9d19ee57",
+      "key": "gpu",
+      "label": "GPU",
+      "value": "NVIDIA Geforce RTX 3060",
+      "featured": true,
+      "estimatedPrice": "24695",
+      "originalUrl": "https://shopee.ph/Gigabyte-Geforce-RTX-3060-Windforce-OC-12GB-GDDR6-Dual-Fans-Graphics-Card-GV-N3060WF2OC-12GD-2.0-itw-i.89762129.28284713861?extraParams=%7B%22display_model_id%22%3A248281397125%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "37378aea92bb49c1a5f1b713273fd7e3",
+      "key": "motherboard",
+      "label": "Motherboard",
+      "value": "MSI B450M-A PRO MAX II",
+      "featured": false,
+      "estimatedPrice": "3995",
+      "originalUrl": "https://shopee.ph/MSI-B450M-A-PRO-MAX-II-Motherboard-i.54415693.41703531419?extraParams=%7B%22display_model_id%22%3A260295022070%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "6e4d95d54cca4985b8c712ba96227994",
+      "key": "ram",
+      "label": "Memory",
+      "value": "G.skill Ripjaws V 2x8GB DDR4-3600",
+      "featured": true,
+      "estimatedPrice": "8999",
+      "originalUrl": "https://shopee.ph/G.skill-Ripjaws-V-16GB(2x8GB)-DDR4-3600-CL16-1.35V-Desktop-Memory-(F4-3600C16D-16GVKC)-i.89762129.22880710840?extraParams=%7B%22display_model_id%22%3A217041614866%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "2ddc6d74c86f457983a9b355120a0bda",
+      "key": "storage",
+      "label": "Storage",
+      "value": "Hiksemi Wave(P) 512GB",
+      "featured": false,
+      "estimatedPrice": "6490",
+      "originalUrl": "https://shopee.ph/Hiksemi-Wave(P)-512GB-1TB-PCIe-Gen3-M.2-NVMe-3D-NAND-SSD-i.124930893.56001438719?extraParams=%7B%22display_model_id%22%3A440222732109%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "5e9968cad7ec4378a313a6482638129b",
+      "key": "psu",
+      "label": "Power Supply",
+      "value": "MSI MAG A550BN 550W 80+ Bronze",
+      "featured": false,
+      "estimatedPrice": "2935",
+      "originalUrl": "https://shopee.ph/MSI-MAG-A550BN-550W-80-Plus-Bronze-Certified-Gaming-Power-Supply-i.124930893.26782312746?extraParams=%7B%22display_model_id%22%3A253097603940%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "2d9a02c43fe845c1bfb9bdb9f9210929",
+      "key": "case",
+      "label": "Case",
+      "value": "DarkFlash DB330M Mesh",
+      "featured": true,
+      "estimatedPrice": "1790",
+      "originalUrl": "https://shopee.ph/DarkFlash-DB330M-Mesh-Luxury-M-ATX-Tempred-Glass-Gaming-PC-Case-i.124930893.50953310270?extraParams=%7B%22display_model_id%22%3A302513846148%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "75c66654c6644a78a16f30e3d8a3a9e0",
+      "key": "Case Fans",
+      "label": "Case Fans",
+      "value": "Thermalright TL-S12 CPU Fan (3-Pack)",
+      "featured": false,
+      "estimatedPrice": "1079",
+      "originalUrl": "https://shopee.ph/Thermalright-TL-S12-CPU-Fan-12cm-Case-Fan-Comes-with-ARGB-Lighting-Effect-PC-PWM-Silent-Computer-Fan-with-1500RPM-Speed-CPU-Cooling-Black-i.1261309153.27356447954?extraParams=%7B%22display_model_id%22%3A108415700123%2C%22model_selection_logic%22%3A2%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    }
+  ],
+  "lastShopeeExport": {
+    "rows": [
+      {
+        "componentId": "97f0d898040141248f321113ed3f0ae9",
+        "rowNumber": 2,
+        "originalUrl": "https://shopee.ph/AMD-Ryzen-5-5500-6-Core-12-Thread-Unlocked-Desktop-Processor-with-Fan-(Tray)-i.124930893.41814675624?extraParams=%7B%22display_model_id%22%3A376243606111%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "4354ad0edadc45c6aebb6d1b9d19ee57",
+        "rowNumber": 3,
+        "originalUrl": "https://shopee.ph/Gigabyte-Geforce-RTX-3060-Windforce-OC-12GB-GDDR6-Dual-Fans-Graphics-Card-GV-N3060WF2OC-12GD-2.0-itw-i.89762129.28284713861?extraParams=%7B%22display_model_id%22%3A248281397125%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "37378aea92bb49c1a5f1b713273fd7e3",
+        "rowNumber": 4,
+        "originalUrl": "https://shopee.ph/MSI-B450M-A-PRO-MAX-II-Motherboard-i.54415693.41703531419?extraParams=%7B%22display_model_id%22%3A260295022070%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "6e4d95d54cca4985b8c712ba96227994",
+        "rowNumber": 5,
+        "originalUrl": "https://shopee.ph/G.skill-Ripjaws-V-16GB(2x8GB)-DDR4-3600-CL16-1.35V-Desktop-Memory-(F4-3600C16D-16GVKC)-i.89762129.22880710840?extraParams=%7B%22display_model_id%22%3A217041614866%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "2ddc6d74c86f457983a9b355120a0bda",
+        "rowNumber": 6,
+        "originalUrl": "https://shopee.ph/Hiksemi-Wave(P)-512GB-1TB-PCIe-Gen3-M.2-NVMe-3D-NAND-SSD-i.124930893.56001438719?extraParams=%7B%22display_model_id%22%3A440222732109%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "5e9968cad7ec4378a313a6482638129b",
+        "rowNumber": 7,
+        "originalUrl": "https://shopee.ph/MSI-MAG-A550BN-550W-80-Plus-Bronze-Certified-Gaming-Power-Supply-i.124930893.26782312746?extraParams=%7B%22display_model_id%22%3A253097603940%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "2d9a02c43fe845c1bfb9bdb9f9210929",
+        "rowNumber": 8,
+        "originalUrl": "https://shopee.ph/DarkFlash-DB330M-Mesh-Luxury-M-ATX-Tempred-Glass-Gaming-PC-Case-i.124930893.50953310270?extraParams=%7B%22display_model_id%22%3A302513846148%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "75c66654c6644a78a16f30e3d8a3a9e0",
+        "rowNumber": 9,
+        "originalUrl": "https://shopee.ph/Thermalright-TL-S12-CPU-Fan-12cm-Case-Fan-Comes-with-ARGB-Lighting-Effect-PC-PWM-Silent-Computer-Fan-with-1500RPM-Speed-CPU-Cooling-Black-i.1261309153.27356447954?extraParams=%7B%22display_model_id%22%3A108415700123%2C%22model_selection_logic%22%3A2%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}
