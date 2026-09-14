@@ -17,7 +17,7 @@ export default function App() {
               <BuildListingPage
                 eyebrow="Complete collection"
                 title="Browse All Builds"
-                description="Every current recommendation, organized around useful budgets and real workloads."
+                enableNameSearch
               />
             }
           />

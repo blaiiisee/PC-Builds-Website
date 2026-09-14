@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "build": {
+    "slug": "all-amd-mid-range-build",
+    "name": "All AMD Mid-Range Build",
+    "price": "₱85,000",
+    "categories": [
+      "gaming",
+      "aaa-gaming",
+      "productivity"
+    ],
+    "target": "1440p / Gaming",
+    "summary": "An easy-to-upgrade AMD CPU+GPU build. Runs all games and can even run decent local LLMs thanks to the 16GB VRAM. If price allows, try to get a 32GB RAM kit.",
+    "reasoning": "AM5 Platform makes future upgrades easy and accessible.",
+    "image": "/images/all-amd-mid.png",
+    "imageAlt": "All AMD Mid-Range Build",
+    "featured": true
+  },
+  "components": [
+    {
+      "id": "97f0d898040141248f321113ed3f0ae9",
+      "key": "cpu",
+      "label": "CPU",
+      "value": "AMD Ryzen 5 7500F",
+      "featured": true,
+      "estimatedPrice": "8459",
+      "originalUrl": "https://shopee.ph/AMD-Ryzen-5-7500F-6-Core-12-Thread-AM5-CPU-Desktop-Processor-With-Fan-(MPK)-i.124930893.41905244197?extraParams=%7B%22display_model_id%22%3A331243609539%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "4354ad0edadc45c6aebb6d1b9d19ee57",
+      "key": "gpu",
+      "label": "GPU",
+      "value": "XFX Swift AMD Radeon RX 9060 XT 16GB",
+      "featured": true,
+      "estimatedPrice": "31995",
+      "originalUrl": "https://shopee.ph/XFX-Swift-AMD-Radeon-RX-9060-XT-OC-Triple-Fan-Gaming-Edition-16GB-GDDR6-Graphics-Card-i.124930893.41522982413?extraParams=%7B%22display_model_id%22%3A119576691745%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "37378aea92bb49c1a5f1b713273fd7e3",
+      "key": "motherboard",
+      "label": "Motherboard",
+      "value": "Gigabyte B650M Gaming WiFi",
+      "featured": false,
+      "estimatedPrice": "7350",
+      "originalUrl": "https://shopee.ph/Gigabyte-B650M-Gaming-WiFi-AMD-AM5-DDR5-Gaming-Motherboard-i.124930893.56502799312?extraParams=%7B%22display_model_id%22%3A315270998529%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "6e4d95d54cca4985b8c712ba96227994",
+      "key": "ram",
+      "label": "Memory",
+      "value": "TeamGroup T-Force Delta 1x16GB 6000MHz",
+      "featured": true,
+      "estimatedPrice": "17495",
+      "originalUrl": "https://shopee.ph/TeamGroup-T-Force-Delta-RGB-16GB-(1x16GB)-DDR5-6000MHz-CL38-RGB-Desktop-Memory-(FF3D516G6000HC38J01)-i.124930893.42554059790?extraParams=%7B%22display_model_id%22%3A285345220009%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "2ddc6d74c86f457983a9b355120a0bda",
+      "key": "storage",
+      "label": "Storage",
+      "value": "Teamgroup MP33 512GB NVMe",
+      "featured": false,
+      "estimatedPrice": "6995",
+      "originalUrl": "https://shopee.ph/Teamgroup-MP33-512GB-MP33-NVMe-1.3-PCIe-Gen-3x4-M.2-SSD-TM8FP6512G0C101--i.124930893.20901274669?extraParams=%7B%22display_model_id%22%3A144316163490%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "5e9968cad7ec4378a313a6482638129b",
+      "key": "psu",
+      "label": "Power Supply",
+      "value": "MSI MAG A650GL 650W 80+ Gold",
+      "featured": false,
+      "estimatedPrice": "5695",
+      "originalUrl": "https://shopee.ph/MSI-MAG-A650GL-PCIE5-650W-80-Plus-Gold-Full-Modular-Power-Supply-i.124930893.41103134046?extraParams=%7B%22display_model_id%22%3A295260125754%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "2d9a02c43fe845c1bfb9bdb9f9210929",
+      "key": "case",
+      "label": "Case",
+      "value": "Coolman Spectra M-ATX Dual Chamber",
+      "featured": true,
+      "estimatedPrice": "2495",
+      "originalUrl": "https://shopee.ph/Coolman-Spectra-M-ATX-Dual-Chamber-PC-Case-(Black-White)-i.379168804.29270963443?extraParams=%7B%22display_model_id%22%3A440020934365%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "a3ff70f5c75847fc81ef60e390a0bc43",
+      "key": "cooling",
+      "label": "Cooling",
+      "value": "Thermalright PA120 Digital LCD",
+      "featured": false,
+      "estimatedPrice": "2899",
+      "originalUrl": "https://shopee.ph/Thermalright-PA120-Digital-LCD-display-CPU-Air-Cooling-Radiator-6-heat-pipe-Chassis-heat-sink-CPU-CPU-simultaneous-monitoring-Supports-LGA1851-1700-AM5-i.1261309153.28321723508?extraParams=%7B%22display_model_id%22%3A168626753233%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "75c66654c6644a78a16f30e3d8a3a9e0",
+      "key": "Case Fans",
+      "label": "Case Fans",
+      "value": "2x Thermalright TL-S12 CPU Fan (3-Pack)",
+      "featured": false,
+      "estimatedPrice": "2158",
+      "originalUrl": "https://shopee.ph/Thermalright-TL-S12-CPU-Fan-12cm-Case-Fan-Comes-with-ARGB-Lighting-Effect-PC-PWM-Silent-Computer-Fan-with-1500RPM-Speed-CPU-Cooling-Black-i.1261309153.27356447954?extraParams=%7B%22display_model_id%22%3A108415700123%2C%22model_selection_logic%22%3A2%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    }
+  ],
+  "lastShopeeExport": {
+    "rows": [
+      {
+        "componentId": "97f0d898040141248f321113ed3f0ae9",
+        "rowNumber": 2,
+        "originalUrl": "https://shopee.ph/AMD-Ryzen-5-7500F-6-Core-12-Thread-AM5-CPU-Desktop-Processor-With-Fan-(MPK)-i.124930893.41905244197?extraParams=%7B%22display_model_id%22%3A331243609539%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "4354ad0edadc45c6aebb6d1b9d19ee57",
+        "rowNumber": 3,
+        "originalUrl": "https://shopee.ph/XFX-Swift-AMD-Radeon-RX-9060-XT-OC-Triple-Fan-Gaming-Edition-16GB-GDDR6-Graphics-Card-i.124930893.41522982413?extraParams=%7B%22display_model_id%22%3A119576691745%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "37378aea92bb49c1a5f1b713273fd7e3",
+        "rowNumber": 4,
+        "originalUrl": "https://shopee.ph/Gigabyte-B650M-Gaming-WiFi-AMD-AM5-DDR5-Gaming-Motherboard-i.124930893.56502799312?extraParams=%7B%22display_model_id%22%3A315270998529%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "6e4d95d54cca4985b8c712ba96227994",
+        "rowNumber": 5,
+        "originalUrl": "https://shopee.ph/TeamGroup-T-Force-Delta-RGB-16GB-(1x16GB)-DDR5-6000MHz-CL38-RGB-Desktop-Memory-(FF3D516G6000HC38J01)-i.124930893.42554059790?extraParams=%7B%22display_model_id%22%3A285345220009%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "2ddc6d74c86f457983a9b355120a0bda",
+        "rowNumber": 6,
+        "originalUrl": "https://shopee.ph/Teamgroup-MP33-512GB-MP33-NVMe-1.3-PCIe-Gen-3x4-M.2-SSD-TM8FP6512G0C101--i.124930893.20901274669?extraParams=%7B%22display_model_id%22%3A144316163490%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "5e9968cad7ec4378a313a6482638129b",
+        "rowNumber": 7,
+        "originalUrl": "https://shopee.ph/MSI-MAG-A650GL-PCIE5-650W-80-Plus-Gold-Full-Modular-Power-Supply-i.124930893.41103134046?extraParams=%7B%22display_model_id%22%3A295260125754%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "2d9a02c43fe845c1bfb9bdb9f9210929",
+        "rowNumber": 8,
+        "originalUrl": "https://shopee.ph/Coolman-Spectra-M-ATX-Dual-Chamber-PC-Case-(Black-White)-i.379168804.29270963443?extraParams=%7B%22display_model_id%22%3A440020934365%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "a3ff70f5c75847fc81ef60e390a0bc43",
+        "rowNumber": 9,
+        "originalUrl": "https://shopee.ph/Thermalright-PA120-Digital-LCD-display-CPU-Air-Cooling-Radiator-6-heat-pipe-Chassis-heat-sink-CPU-CPU-simultaneous-monitoring-Supports-LGA1851-1700-AM5-i.1261309153.28321723508?extraParams=%7B%22display_model_id%22%3A168626753233%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "75c66654c6644a78a16f30e3d8a3a9e0",
+        "rowNumber": 10,
+        "originalUrl": "https://shopee.ph/Thermalright-TL-S12-CPU-Fan-12cm-Case-Fan-Comes-with-ARGB-Lighting-Effect-PC-PWM-Silent-Computer-Fan-with-1500RPM-Speed-CPU-Cooling-Black-i.1261309153.27356447954?extraParams=%7B%22display_model_id%22%3A108415700123%2C%22model_selection_logic%22%3A2%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}
