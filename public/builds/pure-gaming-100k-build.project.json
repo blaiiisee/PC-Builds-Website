@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "build": {
+    "slug": "pure-gaming-100k-build",
+    "name": "Pure Gaming 100K Build",
+    "price": "₱100,000",
+    "categories": [
+      "esports",
+      "aaa-gaming"
+    ],
+    "target": "1440p",
+    "summary": "Simple lang. You have 100K and all you want to do is play. This is for that build.",
+    "reasoning": "One of the top AMD GPUs paired with a solid AM5 CPU. Can't go wrong with that. Consider buying used RAM to get closer to that flat 100K price.",
+    "image": "/images/pure-gaming-100k-pc.png",
+    "imageAlt": "Pure Gaming 100K PC",
+    "featured": false
+  },
+  "components": [
+    {
+      "id": "a3f9bc5afc7d4dd4a9d51580ec81b0ee",
+      "key": "cpu",
+      "label": "CPU",
+      "value": "AMD Ryzen 5 9600X",
+      "featured": false,
+      "estimatedPrice": "12795",
+      "originalUrl": "https://shopee.ph/AMD-Ryzen-5-9600X-6-Cores-12-Threads-Desktop-Processor-(Tray)-i.124930893.25946759050?extraParams=%7B%22display_model_id%22%3A336243625991%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "6f396514810f4d5ea5818e00555a49fc",
+      "key": "gpu",
+      "label": "GPU",
+      "value": "XFX Swift AMD Radeon RX 9070GRE ",
+      "featured": false,
+      "estimatedPrice": "39999",
+      "originalUrl": "https://shopee.ph/XFX-Swift-AMD-Radeon-RX-9070GRE-12GB-GDDR6-Triple-Fans-Gaming-Edition-Graphics-Card-RX-97GRE29B7-itw-i.89762129.48865454869?extraParams=%7B%22display_model_id%22%3A441321826171%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "5fcdca5bcc3541599f2f5a66fdd85a97",
+      "key": "motherboard",
+      "label": "Motherboard",
+      "value": "Gigabyte B650M Gaming WiFi",
+      "featured": false,
+      "estimatedPrice": "7350",
+      "originalUrl": "https://shopee.ph/Gigabyte-B650M-Gaming-WiFi-AMD-AM5-DDR5-Gaming-Motherboard-i.124930893.56502799312?extraParams=%7B%22display_model_id%22%3A315270998529%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "4f089336ab0c4bd9893ed3688bc1ab63",
+      "key": "ram",
+      "label": "Memory",
+      "value": "Lexar Thor OC 32GB Kit",
+      "featured": false,
+      "estimatedPrice": "29995",
+      "originalUrl": "https://shopee.ph/Lexar-Thor-OC-32GB-Kit-(2x16GB)-DDR5-6000MHz-UDIMM-Desktop-Memory-(LD5U16G60C38LG-RGD)-i.1660552298.51356019303?extraParams=%7B%22display_model_id%22%3A425548540612%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "3186d19cd4bb46e68c890150ae7a0774",
+      "key": "storage",
+      "label": "Storage",
+      "value": "Hiksemi Wave(P) 512GB",
+      "featured": false,
+      "estimatedPrice": "6495",
+      "originalUrl": "https://shopee.ph/Hiksemi-Wave(P)-512GB-1TB-PCIe-Gen3-M.2-NVMe-3D-NAND-SSD-i.124930893.56001438719?extraParams=%7B%22display_model_id%22%3A440222732109%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "fcc09d2c67a241fa991bbf81251d7041",
+      "key": "psu",
+      "label": "Power Supply",
+      "value": "MSI MAG A750GL PCIE 5.1 80+ Gold 750W (Tier B)",
+      "featured": false,
+      "estimatedPrice": "5995",
+      "originalUrl": "https://shopee.ph/MSI-MAG-A750GL-PCIE-5.1-80-Plus-Gold-750W-Full-Modular-Power-Supply-i.124930893.28476550522?extraParams=%7B%22display_model_id%22%3A242663393767%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "6d68da248d7449739225d514e192e174",
+      "key": "case",
+      "label": "Case",
+      "value": "Cooler Master Tower Case Elite 481",
+      "featured": false,
+      "estimatedPrice": "3799",
+      "originalUrl": "https://shopee.ph/Cooler-Master-Tower-Case-Elite-481-Wood-mATX-Dual-Glass-Wood-Black-White-itw-i.89762129.41712168725?extraParams=%7B%22display_model_id%22%3A306019263702%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    },
+    {
+      "id": "a252169ea8074558bdb2b6cf06d781f1",
+      "key": "cooling",
+      "label": "Cooling",
+      "value": "Arctic Freezer 36 All Black",
+      "featured": false,
+      "estimatedPrice": "2195",
+      "originalUrl": "https://shopee.ph/Arctic-Freezer-36-All-Black-Multi-Compatible-Tower-CPU-Cooler-(ACFRE00123A)-i.124930893.47852686595?extraParams=%7B%22display_model_id%22%3A282231660154%2C%22model_selection_logic%22%3A3%7D",
+      "subIds": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "affiliateUrl": ""
+    }
+  ],
+  "lastShopeeExport": {
+    "rows": [
+      {
+        "componentId": "a3f9bc5afc7d4dd4a9d51580ec81b0ee",
+        "rowNumber": 2,
+        "originalUrl": "https://shopee.ph/AMD-Ryzen-5-9600X-6-Cores-12-Threads-Desktop-Processor-(Tray)-i.124930893.25946759050?extraParams=%7B%22display_model_id%22%3A336243625991%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "6f396514810f4d5ea5818e00555a49fc",
+        "rowNumber": 3,
+        "originalUrl": "https://shopee.ph/XFX-Swift-AMD-Radeon-RX-9070GRE-12GB-GDDR6-Triple-Fans-Gaming-Edition-Graphics-Card-RX-97GRE29B7-itw-i.89762129.48865454869?extraParams=%7B%22display_model_id%22%3A441321826171%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "5fcdca5bcc3541599f2f5a66fdd85a97",
+        "rowNumber": 4,
+        "originalUrl": "https://shopee.ph/Gigabyte-B650M-Gaming-WiFi-AMD-AM5-DDR5-Gaming-Motherboard-i.124930893.56502799312?extraParams=%7B%22display_model_id%22%3A315270998529%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "4f089336ab0c4bd9893ed3688bc1ab63",
+        "rowNumber": 5,
+        "originalUrl": "https://shopee.ph/Lexar-Thor-OC-32GB-Kit-(2x16GB)-DDR5-6000MHz-UDIMM-Desktop-Memory-(LD5U16G60C38LG-RGD)-i.1660552298.51356019303?extraParams=%7B%22display_model_id%22%3A425548540612%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "3186d19cd4bb46e68c890150ae7a0774",
+        "rowNumber": 6,
+        "originalUrl": "https://shopee.ph/Hiksemi-Wave(P)-512GB-1TB-PCIe-Gen3-M.2-NVMe-3D-NAND-SSD-i.124930893.56001438719?extraParams=%7B%22display_model_id%22%3A440222732109%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "fcc09d2c67a241fa991bbf81251d7041",
+        "rowNumber": 7,
+        "originalUrl": "https://shopee.ph/MSI-MAG-A750GL-PCIE-5.1-80-Plus-Gold-750W-Full-Modular-Power-Supply-i.124930893.28476550522?extraParams=%7B%22display_model_id%22%3A242663393767%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "6d68da248d7449739225d514e192e174",
+        "rowNumber": 8,
+        "originalUrl": "https://shopee.ph/Cooler-Master-Tower-Case-Elite-481-Wood-mATX-Dual-Glass-Wood-Black-White-itw-i.89762129.41712168725?extraParams=%7B%22display_model_id%22%3A306019263702%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "componentId": "a252169ea8074558bdb2b6cf06d781f1",
+        "rowNumber": 9,
+        "originalUrl": "https://shopee.ph/Arctic-Freezer-36-All-Black-Multi-Compatible-Tower-CPU-Cooler-(ACFRE00123A)-i.124930893.47852686595?extraParams=%7B%22display_model_id%22%3A282231660154%2C%22model_selection_logic%22%3A3%7D",
+        "subIds": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+}
