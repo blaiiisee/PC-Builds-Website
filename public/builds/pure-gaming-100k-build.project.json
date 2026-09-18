@@ -13,7 +13,7 @@
     "reasoning": "One of the top AMD GPUs paired with a solid AM5 CPU. Can't go wrong with that. Consider buying used RAM to get closer to that flat 100K price.",
     "image": "/images/pure-gaming-100k-pc.png",
     "imageAlt": "Pure Gaming 100K PC",
-    "featured": false
+    "featured": true
   },
   "components": [
     {
@@ -21,7 +21,7 @@
       "key": "cpu",
       "label": "CPU",
       "value": "AMD Ryzen 5 9600X",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "12795",
       "originalUrl": "https://shopee.ph/AMD-Ryzen-5-9600X-6-Cores-12-Threads-Desktop-Processor-(Tray)-i.124930893.25946759050?extraParams=%7B%22display_model_id%22%3A336243625991%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
@@ -38,7 +38,7 @@
       "key": "gpu",
       "label": "GPU",
       "value": "XFX Swift AMD Radeon RX 9070GRE ",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "39999",
       "originalUrl": "https://shopee.ph/XFX-Swift-AMD-Radeon-RX-9070GRE-12GB-GDDR6-Triple-Fans-Gaming-Edition-Graphics-Card-RX-97GRE29B7-itw-i.89762129.48865454869?extraParams=%7B%22display_model_id%22%3A441321826171%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
@@ -72,7 +72,7 @@
       "key": "ram",
       "label": "Memory",
       "value": "Lexar Thor OC 32GB Kit",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "29995",
       "originalUrl": "https://shopee.ph/Lexar-Thor-OC-32GB-Kit-(2x16GB)-DDR5-6000MHz-UDIMM-Desktop-Memory-(LD5U16G60C38LG-RGD)-i.1660552298.51356019303?extraParams=%7B%22display_model_id%22%3A425548540612%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
@@ -123,7 +123,7 @@
       "key": "case",
       "label": "Case",
       "value": "Cooler Master Tower Case Elite 481",
-      "featured": false,
+      "featured": true,
       "estimatedPrice": "3799",
       "originalUrl": "https://shopee.ph/Cooler-Master-Tower-Case-Elite-481-Wood-mATX-Dual-Glass-Wood-Black-White-itw-i.89762129.41712168725?extraParams=%7B%22display_model_id%22%3A306019263702%2C%22model_selection_logic%22%3A3%7D",
       "subIds": [
